@@ -1,0 +1,12 @@
+{
+	"name": "AtCoder Environment",
+	"dockerComposeFile": [
+		"docker-compose.yml"
+	],
+	"service": "dev",
+	"workspaceFolder": "/root",
+	"extensions": [
+		"ms-vscode.cpptools", // C/C++ IntelliSense (Microsoft)
+		"visualstudioexptteam.vscodeintellicode" // AI-assisted development (Microsoft)
+	]
+}

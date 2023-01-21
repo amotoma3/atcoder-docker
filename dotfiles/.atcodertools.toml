@@ -1,0 +1,3 @@
+[codestyle]
+template_file='~/default_template'
+code_generator_file="~/codegen.py"

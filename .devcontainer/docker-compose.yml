@@ -1,0 +1,21 @@
+version: '3'
+services:
+  dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    image: amotoma3/atcoder:dev
+
+    volumes:
+      - ../problems:/root/atcoder-workspace:cached
+      - ../.vscode:/root/.vscode:cached
+      - ../.local/share/atcoder-tools:/root/.local/share/atcoder-tools:cached
+      - ../default_template:/root/default_template:cached
+      - ../codegen.py:/root/codegen.py:cached
+      - ../dotfiles/.zshrc:/root/.zshrc
+      - ../dotfiles/.atcodertools.toml:/root/.atcodertools.toml
+      - ../dotfiles/.clang-format:/root/.clang-format
+
+    # Overrides default command so things don't shut down after the process ends.
+    command: /bin/sh -c "while sleep 1000; do :; done"
