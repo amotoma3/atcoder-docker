@@ -3,7 +3,9 @@
         {
             "name": "Linux",
             "includePath": [],
-            "defines": [],
+            "defines": [
+                "LOCAL"
+            ],
             "compilerPath": "/usr/bin/g++",
             "cStandard": "gnu17",
             "cppStandard": "c++17",

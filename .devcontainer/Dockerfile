@@ -8,7 +8,7 @@ RUN apt update && \
 
 RUN chsh -s /bin/zsh
 
-RUN apt update && apt install -y g++-9 python3.8 python3-pip
+RUN apt update && apt install -y g++-9 gdb python3.8 python3-pip
 
 RUN update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-9 10
 

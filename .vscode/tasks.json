@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-D=LOCAL",
+                "${file}",
+                "-std=c++17",
+                "-Wall",
+                "-g",
+                "-o",
+                "${fileDirname}/a.out"
+            ]
+        }
+    ]
+}

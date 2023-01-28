@@ -6,7 +6,7 @@
 	"service": "dev",
 	"workspaceFolder": "/root",
 	"extensions": [
-		"ms-vscode.cpptools", // C/C++ IntelliSense (Microsoft)
-		"visualstudioexptteam.vscodeintellicode" // AI-assisted development (Microsoft)
+		"ms-vscode.cpptools-extension-pack",
+		"visualstudioexptteam.vscodeintellicode"
 	]
 }
