@@ -17,7 +17,7 @@ def _loop_header(var: Variable, for_second_index: bool):
         index = var.first_index
         loop_var = "i"
 
-    return "for(int {loop_var} = 0; {loop_var} < {length}; ++{loop_var}){{".format(
+    return "for(int {loop_var} = 0 ; {loop_var} < {length} ; {loop_var}++){{".format(
         loop_var=loop_var,
         length=index.get_length()
     )

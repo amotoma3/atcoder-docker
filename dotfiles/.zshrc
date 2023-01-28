@@ -1,5 +1,10 @@
-function atgen() {
+function genc() {
     atcoder-tools gen $1
+    cd ~/atcoder-workspace
+    export CONTEST_NAME=$1
+}
+
+function setc() {
     cd ~/atcoder-workspace
     export CONTEST_NAME=$1
 }

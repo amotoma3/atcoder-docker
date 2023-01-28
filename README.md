@@ -1,5 +1,13 @@
 # AtCoder 競プロ環境
 
+## 環境・ツール
+
+- C++ (GCC 9)
+- VSCode
+- Docker
+- [AtCoder Tools](https://github.com/kyuridenamida/atcoder-tools)
+- [AC Library](https://github.com/atcoder/ac-library)
+
 ## 始め方
 
 前提: [VSCode](https://code.visualstudio.com/download)と[Docker Desktop](https://www.docker.com/products/docker-desktop/)がインストールされていること
@@ -7,11 +15,11 @@
 1. 本リポジトリをcloneして、ディレクトリをVSCodeで開く
 2. F1キーでコマンドパレットを開き、「Dev Containers: Reopen in Container」を実行
 
-## コマンド ([AtCoder Tools](https://github.com/kyuridenamida/atcoder-tools)のエイリアス)
+## コマンド例
 
 ABC280の問題生成
 ```
-edaa0bc6132a# atgen abc280
+edaa0bc6132a# genc abc280
 2023-01-25 18:34:53,573 INFO: Going to load /root/.atcodertools.toml as config
 2023-01-25 18:34:53,576 INFO: Loaded session from /root/.local/share/atcoder-tools/cookie.txt
 2023-01-25 18:34:53,716 INFO: Successfully Logged in using the previous session cache.
