@@ -2,7 +2,5 @@ BasedOnStyle: 'Google'
 IndentWidth: 2
 
 # for competitive programing
-AllowShortFunctionsOnASingleLine: All
-AllowShortIfStatementsOnASingleLine: true
-AllowShortLoopsOnASingleLine: true
-SeparateDefinitionBlocks: Always
+AllowShortFunctionsOnASingleLine: "None"
+AllowShortIfStatementsOnASingleLine: "AllIfsAndElse"
